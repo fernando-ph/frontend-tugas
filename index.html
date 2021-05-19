@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Frontend</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <div id="app">
+        <h1>Daftar Produk</h1>
+        <li v-for="product in products">
+            Kode Produk: {{ product.id }}, Nama Produk: {{ product.name }}, Stock: {{ product.stock }}
+        </li>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

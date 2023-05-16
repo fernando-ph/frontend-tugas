@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>pendaftaran</title>
+    <link rel="stylesheet" href="cs.css">
+
+</head>
+
+<body>
+    
+    <nav>
+        <div id="left-nav">
+            <ul>
+                <li>
+                    <a class="nav-option" href="https://dumbways.id/" target="_blank">
+                    <img src="12.png" alt="DumbWays ID logo">
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-option" href="Index.html" style="font-weight: normal;">HOME</a>
+                </li>
+
+                <li>
+                    <a class="nav-option" href="My-Project.html" style="font-weight: normal;">MY PROJECT</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="right-nav">
+            <a href="#">
+                <button type="button">
+                    Contact
+                </button>
+            </a>
+        </div>
+    </nav>
+
+    <!-- ------------------------------------------------------------------------------------------------- -->
+
+    <h2 class="code">perkenalkan</h2>
+
+    <form>
+        <div>
+            <label class="mandatory-field" for="masukkan Nama">Nama</label>
+            <input type="text" placeholder="masukkan Nama" id="masukkan Nama" autocomplete="off" required />
+        </div>
+
+        <div>
+            <label class="mandatory-field" for="emailw">Email</label>
+            <input type="email" placeholder="masukkan email" id="emailw" autocomplete="off" required />
+        </div>
+
+        <div>
+            <label class="mandatory-field" for="number1">no hp</label>
+            <input type="number" placeholder="masukkan nomor telepon" id="number1" autocomplete="off" required />
+        </div>
+
+        <div>
+            <label class="mandatory-field" for="hobimu-a">hobimu apa</label>
+            <select id="hobimus-a" required>
+                <option value="" hidden>hobimu apa</option>
+                <option value="lari">lari</option>
+                <option value="gammer">gammer</option>
+                <option value="gak ada">gak ada</option>
+                
+            </select>
+        </div>
+
+        <div>
+            <label for="misi">misimu</label>
+            <textarea placeholder="tolong jelaskan" id="misi" autocomplete="off"></textarea>
+        </div>
+
+        <button class="submit-button" type="submit">kasih</button>
+    </form>
+
+</body>
+</html>
